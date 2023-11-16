@@ -1,3 +1,5 @@
+let bitcoin = document.getElementById("bitcoin");
+
 let settings = {
   async: true,
   scrossDomain: true,

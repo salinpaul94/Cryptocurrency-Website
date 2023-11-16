@@ -1,6 +1,6 @@
 let bitcoin = document.getElementById("bitcoin");
 let ethereum = document.getElementById("ethereum");
-
+let dogecoin = document.getElementById("dogecoin");
 
 let settings = {
   async: true,

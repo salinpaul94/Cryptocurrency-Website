@@ -9,5 +9,7 @@ let settings = {
 };
 
 $.ajax(settings).done(function (response) {
-  btc.innerHTML= response.bitcoin.inr;
+  btc.innerHTML = response.bitcoin.inr;
+  eth.innerHTML = response.ethereum.inr;
+  
 });

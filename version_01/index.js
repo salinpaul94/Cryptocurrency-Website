@@ -1,6 +1,6 @@
-let bitcoin = document.getElementById("bitcoin");
-let ethereum = document.getElementById("ethereum");
-let dogecoin = document.getElementById("dogecoin");
+let btc = document.getElementById("bitcoin");
+let eth = document.getElementById("ethereum");
+let doge = document.getElementById("dogecoin");
 
 let settings = {
   async: true,
@@ -9,5 +9,5 @@ let settings = {
 };
 
 $.ajax(settings).done(function (response) {
-  console.log(response);
+  btc.innerHTML= response.bitcoin.inr;
 });
